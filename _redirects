@@ -1,0 +1,5 @@
+# Redirect bare domain to www (handle in Cloudflare DNS + Page Rules too)
+# Cloudflare Pages itself serves www — root domain redirect is set in Cloudflare dashboard.
+
+# Force all traffic to www (if bare domain points here via redirect rule)
+https://floydspaintandbody.com/* https://www.floydspaintandbody.com/:splat 301!

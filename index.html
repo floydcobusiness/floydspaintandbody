@@ -6,26 +6,48 @@
   <title>Floyd's Paint &amp; Body | Auto Paint and Body Repair</title>
   <meta name="description" content="Floyd's Paint &amp; Body provides professional collision repair, auto body work, and automotive painting. Call 731-610-4970 for an estimate." />
   <link rel="canonical" href="https://www.floydspaintandbody.com/" />
+
+  <!-- Open Graph -->
   <meta property="og:title" content="Floyd's Paint &amp; Body | Auto Paint and Body Repair" />
   <meta property="og:description" content="Floyd's Paint &amp; Body provides professional collision repair, auto body work, and automotive painting. Call 731-610-4970 for an estimate." />
   <meta property="og:image" content="https://www.floydspaintandbody.com/public/images/logo.png" />
   <meta property="og:url" content="https://www.floydspaintandbody.com/" />
   <meta property="og:type" content="website" />
+
+  <!-- Favicon placeholder -->
   <link rel="icon" type="image/png" href="/public/images/logo.png" />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+  <!-- ===== HEADER ===== -->
   <header class="site-header">
     <div class="container header-inner">
       <a href="#top" class="logo-link">
-        <img src="/public/images/logo.png" alt="Floyd's Paint &amp; Body logo" class="logo" onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='block';" />
+        <img
+          src="/public/images/logo.png"
+          alt="Floyd's Paint &amp; Body logo"
+          class="logo"
+          onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='block';"
+        />
         <span id="logo-fallback" class="logo-fallback" style="display:none;">Floyd's Paint &amp; Body</span>
       </a>
       <a href="tel:7316104970" class="btn btn-primary header-cta">Call 731-610-4970</a>
     </div>
   </header>
+
+  <!-- ===== HERO ===== -->
   <section class="hero" id="top">
     <div class="container hero-inner">
+      <div class="hero-logo-wrap">
+        <img
+          src="/public/images/logo.png"
+          alt="Floyd's Paint &amp; Body"
+          class="hero-logo"
+          onerror="this.style.display='none';"
+        />
+      </div>
       <h1>High Quality Auto Body &amp; Paint</h1>
       <p class="hero-sub">Quality collision repair, body work, and automotive painting you can depend on.</p>
       <div class="hero-btns">
@@ -34,10 +56,13 @@
       </div>
     </div>
   </section>
+
+  <!-- ===== SERVICES ===== -->
   <section class="services" id="services">
     <div class="container">
       <h2 class="section-title">Our Services</h2>
       <div class="services-grid">
+
         <div class="service-card">
           <div class="service-icon" aria-hidden="true">
             <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -51,6 +76,7 @@
           <h3>Collision Repair</h3>
           <p>Professional repairs to restore your vehicle after an accident.</p>
         </div>
+
         <div class="service-card">
           <div class="service-icon" aria-hidden="true">
             <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -62,6 +88,7 @@
           <h3>Auto Body Repair</h3>
           <p>Dent, panel, and body repairs completed with attention to detail.</p>
         </div>
+
         <div class="service-card">
           <div class="service-icon" aria-hidden="true">
             <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -76,36 +103,116 @@
           <h3>Automotive Painting</h3>
           <p>Quality automotive paint work and refinishing.</p>
         </div>
+
       </div>
     </div>
   </section>
+
+  <!-- ===== GALLERY ===== -->
   <section class="gallery" id="gallery">
     <div class="container">
       <h2 class="section-title">Our Work</h2>
       <div class="gallery-grid">
-        <div class="gallery-card"><img src="/public/images/work-1.jpg" alt="Completed auto body project 1" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" /><div class="gallery-placeholder" style="display:none;"><span>Completed Project 1</span></div></div>
-        <div class="gallery-card"><img src="/public/images/work-2.jpg" alt="Completed auto body project 2" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" /><div class="gallery-placeholder" style="display:none;"><span>Completed Project 2</span></div></div>
-        <div class="gallery-card"><img src="/public/images/work-3.jpg" alt="Completed auto body project 3" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" /><div class="gallery-placeholder" style="display:none;"><span>Completed Project 3</span></div></div>
-        <div class="gallery-card"><img src="/public/images/work-4.jpg" alt="Completed auto body project 4" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" /><div class="gallery-placeholder" style="display:none;"><span>Completed Project 4</span></div></div>
-        <div class="gallery-card"><img src="/public/images/work-5.jpg" alt="Completed auto body project 5" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" /><div class="gallery-placeholder" style="display:none;"><span>Completed Project 5</span></div></div>
-        <div class="gallery-card"><img src="/public/images/work-6.jpg" alt="Completed auto body project 6" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" /><div class="gallery-placeholder" style="display:none;"><span>Completed Project 6</span></div></div>
+
+        <div class="gallery-card">
+          <img
+            src="/public/images/work-1.jpg"
+            alt="Completed auto body project 1"
+            loading="lazy"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="gallery-placeholder" style="display:none;">
+            <span>Completed Project 1</span>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <img
+            src="/public/images/work-2.jpg"
+            alt="Completed auto body project 2"
+            loading="lazy"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="gallery-placeholder" style="display:none;">
+            <span>Completed Project 2</span>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <img
+            src="/public/images/work-3.jpg"
+            alt="Completed auto body project 3"
+            loading="lazy"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="gallery-placeholder" style="display:none;">
+            <span>Completed Project 3</span>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <img
+            src="/public/images/work-4.jpg"
+            alt="Completed auto body project 4"
+            loading="lazy"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="gallery-placeholder" style="display:none;">
+            <span>Completed Project 4</span>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <img
+            src="/public/images/work-5.jpg"
+            alt="Completed auto body project 5"
+            loading="lazy"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="gallery-placeholder" style="display:none;">
+            <span>Completed Project 5</span>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <img
+            src="/public/images/work-6.jpg"
+            alt="Completed auto body project 6"
+            loading="lazy"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="gallery-placeholder" style="display:none;">
+            <span>Completed Project 6</span>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
+
+  <!-- ===== CONTACT ===== -->
   <section class="contact" id="contact">
     <div class="container contact-inner">
       <h2 class="section-title">Get an Estimate</h2>
       <p class="contact-name">Floyd's Paint &amp; Body</p>
-      <p class="contact-phone"><a href="tel:7316104970">731-610-4970</a></p>
+      <p class="contact-phone">
+        <a href="tel:7316104970">731-610-4970</a>
+      </p>
       <a href="tel:7316104970" class="btn btn-primary btn-large">Call for an Estimate</a>
     </div>
   </section>
+
+  <!-- ===== FOOTER ===== -->
   <footer class="site-footer">
     <div class="container footer-inner">
       <p>&copy; <span id="year"></span> Floyd's Paint &amp; Body. All rights reserved.</p>
       <p><a href="tel:7316104970">731-610-4970</a></p>
     </div>
   </footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
 </body>
 </html>

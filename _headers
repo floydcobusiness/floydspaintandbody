@@ -16,3 +16,9 @@
 
 /
   Cache-Control: public, max-age=0, must-revalidate
+
+/floyd-analytics.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/floyd-analytics-config.js
+  Cache-Control: public, max-age=0, must-revalidate
